@@ -2,17 +2,17 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&family=Radio+Canada:wght@500&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #463730ff   ;
-  --secondary-color: #1f5673ff ;
-  --accent1-color: #759fbcff;
-  --accent2-color: #90c3c8ff;
+  --primary-color: #463730   ;
+  --secondary-color: #1f5673 ;
+  --accent1-color: #759fbc;
+  --accent2-color: #90c3c8;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Permanent Marker";
+  --heading-font: "Permanent Marker", "Radio Canada";
   --paragraph-font: Caveat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -22,9 +22,9 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: white;
-  --nav-background-color: #1f5673ff;
+  --nav-background-color: #1f5673;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #759fbcff;
+  --nav-hover-background-color: #759fbc;
 }
 
 
