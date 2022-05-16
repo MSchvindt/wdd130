@@ -1,0 +1,23 @@
+#content {
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+#hero-img {
+    display: block;
+    width: 80%;
+}
+.circle-image {
+    display: inline;
+    width: 80%;
+}
+main img{
+    width: 280px;
+    padding: 0px;
+    border-radius: 180px;
+    border: 20px solid rgb(85, 85, 85);
+    margin: 40px ;
+}
+main{
+    background-color: gray;
+    width: 80%;
+}
