@@ -22,6 +22,7 @@ main section{
 
 #background{
     height: 725px;
+    background-color: #F3E5AB;
 }
 
 body{
@@ -46,10 +47,6 @@ nav a:hover{
 .book:hover, .join:hover{
     background-color: #1f5673;
     color: #d9c2a3
-}
-
-#background{
-    background-color: #F3E5AB; 
 }
 
 .msg{
