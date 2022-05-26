@@ -1,0 +1,27 @@
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.image-cherries{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    z-index: initial;
+}
+h1{
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    align-self: center;
+}
+#background{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: rgb(142, 141, 141);
+    z-index: initial;
+}
+p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 1;  
+}
