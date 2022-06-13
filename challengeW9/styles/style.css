@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: red; 
+}
+
+
+#hero-msg h1{
+    text-align: center;
+    font-family:'Bebas Neue', 'PT Sans', sans-serif;
+    grid-column: 2/3;
+}
+#hero-msg h4{
+    text-align: center;
+    font-family: 'BIZ UDPGothic', sans-serif, 'Dosis';
+    grid-column: 2/3;
+}
+#hero-img{
+    width: 100%; 
+    height: 300px;  
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+footer {
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
