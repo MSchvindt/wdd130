@@ -249,10 +249,9 @@ nav {
 .msg-page2 p{
     color: #1f5673;
     font-family: 'BIZ UDPGothic', sans-serif, 'Dosis';
-    font-size: .8em;
-    padding-bottom: 15px;
+    font-size: 1em;
     text-align: left;
-    padding-right: 60px;
+    padding-right: 90px;
 
 }
 .mountains-page2 h2{
@@ -280,6 +279,7 @@ nav {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 #title-page2{
+    font-size: 1.8em;
     line-height: 5em;
     font-family: 'Bebas Neue', 'PT Sans', sans-serif;
     text-align: center;
